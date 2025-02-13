@@ -19,7 +19,7 @@ switch ($method) {
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
                 // Tambahkan base URL untuk gambar
-                $row['gambar'] = 'images/' . $row['gambar'];
+                $row['gambar'] = '../images/' . $row['gambar'];
                 $data[] = $row;
             }
         }
