@@ -111,7 +111,6 @@ $musim_data = get_musim($id_wilayah);
             if (isset($_SERVER['HTTP_REFERER'])) {
                 // echo "<a href='" . $_SERVER['HTTP_REFERER'] . "' class='btn btn-secondary'>Kembali</a>";
             } else {
-                // echo "<a href='tanaman.php' class='btn btn-primary'>Kembali ke Halaman Utama</a>";
             }
             ?>
         </div>
