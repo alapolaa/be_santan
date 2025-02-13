@@ -30,7 +30,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
 
-        // Prepared statements untuk keamanan
         $stmt = $conn->prepare("INSERT INTO Tanaman (nama_tanaman, deskripsi, gambar, id_musim) VALUES (?, ?, ?, ?)");
         $stmt->bind_param("sssi", $nama_tanaman, $deskripsi, $gambar, $id_musim);
 
