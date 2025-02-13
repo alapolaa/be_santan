@@ -59,7 +59,7 @@ if ($musim_data) {
                 "id_tanaman" => $row['id_tanaman'],
                 "nama_tanaman" => $row['nama_tanaman'],
                 "deskripsi" => $row['deskripsi'],
-                "gambar" => "../images/" . $row['gambar'] // Sertakan path gambar
+                "gambar" => "images/" . $row['gambar'] // Sertakan path gambar
             );
         }
     }

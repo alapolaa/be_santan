@@ -20,7 +20,7 @@ if (isset($_GET['id'])) {
             "id_tanaman" => $row['id_tanaman'],
             "nama_tanaman" => $row['nama_tanaman'],
             "deskripsi" => $row['deskripsi'],
-            "gambar" => "../images/" . $row['gambar'],
+            "gambar" => "images/" . $row['gambar'],
             "nama_musim" => $row['nama_musim']
         );
 

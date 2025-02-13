@@ -3,7 +3,7 @@ include '../koneksi.php';
 
 header('Content-Type: application/json');
 
-$target_dir = "../images/";
+$target_dir = "images/";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
